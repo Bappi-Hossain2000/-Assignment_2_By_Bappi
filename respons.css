@@ -1,0 +1,10 @@
+/* @media screen and (max-width: 600px) {
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .nav_right_side, .nav_section {
+    flex-direction: column;
+    padding: 1px 1px ;
+  }
+} */

@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+*{
+  font-family: 'Mulish', sans-serif;
+  margin: 0;
+  /* padding: 0; */
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 5px auto;
+  max-width: 1440px;
+}
+
+
+/* common_css */
+img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* common_css */
+
+
+/* Header_Section */
+/* Header_Section */
+.main_header_section{
+  /* padding: 55px 135px; */
+  margin: 5px auto;
+  max-width: 1440px;
+  border: 5px salmon solid;
+}
+.nav_section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_left_side{
+  display: flex;
+  align-items: center;
+}
+.nav_left_side .logo_img img{
+  padding: 0 16px 0 0;
+}
+.nav_left_side h1{
+  color: #131318;
+font-family: Mulish;
+font-size: 36px;
+font-weight: 800;
+}
+.nav_left_side .Travel_style{
+  color: #FF5400;
+font-family: Mulish;
+font-size: 36px;
+font-weight: 800;
+}
+.nav_right_side{
+  display: flex;
+  align-items: center;
+}
+.nav_right_side li{
+  margin-left: 45px;
+}
+.nav_right_side li a{
+  color:#424247;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-weight: 400;
+}
+.style .Home_style{
+  color: #FF5400;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+/* input_section */
+.img_content_input{
+  background-image: url('img/Group 13 (1) (1).png');
+  background-repeat: no-repeat;
+  width: 100%;
+height: 500px;
+border-radius: 16px;
+/* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+text-align: center;
+width: 1170px;
+height: 500px;
+flex-shrink: 0;
+
+}
+.nav_container{
+  
+}
+.nav_container h1{
+  color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-weight: 800;
+}
+.nav_container p{
+  color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.input_section{
+  display: inline-flex;
+padding: 16px;
+align-items: center;
+gap: 24px;
+padding: 16px;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
+.nav_container input{
+color: rgba(19, 19, 24, 0.50);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FFF;
+border: none;
+outline: none;
+}
+.input_section button{
+  width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+outline: none;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.fa-magnifying-glass{
+  margin-right: 10px;
+}
+
+
+
+
+
+
+/* main_Section  */
+/* main_Section  */
+
+/* section_1. Our Popular Tours   */
+.Popular_Tours{
+  display: flex;
+  margin-top: 100px;
+  
+}
+.Popular_Tours .content{
+  width: 50%;
+
+  
+}
+.Popular_Tours .content h1{
+  color: #131318;
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+}
+.Popular_Tours .content p, li, p{
+  color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-top: 16px;
+}
+.Popular_Tours .content button{
+  width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+  color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+border: none;
+outline: none;
+}
+.Popular_Tours .img{
+  width: 50%;
+}
+
+/* section_2.Choose Your Destination    */
+.Destination{
+  margin-top: 50px;
+}
+.Destination .conten{
+  width: 643px;
+}
+.Destination .conten h1{
+  color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+}
+.Destination .conten p{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+
+
+.img_g_1{
+  grid-area: img_g_1;
+}
+.img_g_2{
+  grid-area: img_g_2;
+}
+.img_g_3{
+  grid-area: img_g_3;
+}
+.img_g_4{
+  grid-area: img_g_4;
+}
+.img_g_5{
+  grid-area: img_g_5;
+}
+.img_g_6{
+  grid-area: img_g_6;
+}
+.img_g_7{
+  grid-area: img_g_7;
+}
+.img_gallery{
+  border: red solid 5px;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+  'img_g_1 img_g_1 img_g_1 img_g_1 img_g_1 img_g_1 img_g_2 img_g_2 img_g_2 img_g_2 img_g_2 img_g_2'
+  'img_g_3 img_g_3 img_g_3 img_g_4 img_g_4 img_g_4 img_g_4 img_g_4 img_g_4 img_g_5 img_g_5 img_g_5'
+  'img_g_6 img_g_6 img_g_6 img_g_6 img_g_7 img_g_7 img_g_7 img_g_7 img_g_7 img_g_7 img_g_7 img_g_7 '
+  ;
+}
+.img_gallery div{
+  width: 100%;
+  height: 100%;
+}
+.img_gallery p{
+  position: absolute;
+  text-align: center;
+}
+
+
+/*section_3. Why Choose Us  */
+.Choose_us{
+  padding-top: 100px;
+  margin-top: 100px;
+  margin: 20px 0;
+  border: red 5px solid;
+}
+
+.Choose_us .main_section{
+  width: 643px;
+  
+}
+.Choose_us .main_section h1{
+  color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  
+}
+.Choose_us .main_section p{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.image_64{
+  width: 64px;
+  height: 64px;
+}
+.Choose_us .Group{
+  display: flex;
+}
+.Choose_us .section_1{
+  width: 573px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 20px;
+
+  }
+
+.Choose_us .section_2{
+  width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 20px;
+
+}
+.Choose_us .section_3{
+  width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding: 20px;
+}
+
+/* section_4.Newsletter*/
+.Newsletter{
+  display: flex;
+}
+.Newsletter .input_b input, button{
+  display: block;
+}
+
+/* footer_Section */
+/* footer_Section */
+.footer .logo_img{
+  width: 50px;
+  height: 50px;
+}
+
+
+
