@@ -359,9 +359,7 @@ padding: 20px;
   text-align: center;
   font-family: Mulish;
   font-size: 40px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
 }
 .Deals_and_Discounts p{
   color: rgba(19, 19, 24, 0.70);
@@ -394,7 +392,7 @@ border: 2px solid #FFF;
 background: rgba(255, 255, 255, 0.80);
 backdrop-filter: blur(2.5px);
 position: absolute;
-top: 5%;
+top: 10%;
 right: 5%;
 }
 .Packages_section_1 ul{
@@ -450,9 +448,9 @@ font-weight: 800;
 border: none;
 outline: none;
 }
-/* Packages_1 Packages_1 */
-.Packages_1{
-  background-image: url(img/Group\ 39.png);
+/* Packages_2 Packages_2 */
+.Packages_2{
+  background-image: url(img/Group\ 40.png);
   background-repeat: no-repeat;
   width: 1170px;
 height: 500px;
@@ -461,7 +459,7 @@ border-radius: 16px;
 position: relative;
 /* background: url(<path-to-image>), lightgray 10% / cover no-repeat; */
 }
-.Packages_section_1 {
+.Packages_section_2 {
   text-align: left;
   width: 579px;
 height: 389px;
@@ -471,20 +469,20 @@ border: 2px solid #FFF;
 background: rgba(255, 255, 255, 0.80);
 backdrop-filter: blur(2.5px);
 position: absolute;
-top: 5%;
-right: 5%;
+top: 10%;
+left: 5%;
 }
-.Packages_section_1 ul{
+.Packages_section_2 ul{
   display: flex;
   justify-content: left;
 }
-.Packages_section_1 ul li i{
+.Packages_section_2 ul li i{
   margin: 0 5px;
   color: #FF5400;
   text-align: left;
 }
 
-.Packages_section_1 h1{
+.Packages_section_2 h1{
   color: #131318;
 font-family: Mulish;
 font-size: 24px;
@@ -494,7 +492,7 @@ line-height: normal;
 text-align: left;
 padding-left: 80px;
 }
-.Packages_section_1 p{
+.Packages_section_2 p{
   color: #5A5A5D;
 font-family: Mulish;
 font-size: 16px;
@@ -503,7 +501,7 @@ line-height: 26px;
 text-align: left;
 padding-left: 80px;
 }
-.Packages_section_1 h4{
+.Packages_section_2 h4{
   color: #FF5400;
 font-family: Mulish;
 font-size: 20px;
@@ -513,7 +511,7 @@ line-height: normal;
 text-align: left;
 padding-left: 80px;
 }
-.Packages_section_1 button{
+.Packages_section_2 button{
   width: 150px;
 height: 52px;
 flex-shrink: 0;
