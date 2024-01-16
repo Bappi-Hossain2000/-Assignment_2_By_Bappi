@@ -145,5 +145,12 @@ position: relative;
  width: 350px;
 }
 
+.img_content_input{
+  padding-top: 1px;
+}
+.nav_container h1{
+  font-size: 45px;
+  color: tomato;
+}
 
 }
