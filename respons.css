@@ -107,7 +107,11 @@ height: 500px;
 .perfct_place{
   display: flex;
   flex-direction: column;
+  padding: 20px 20px;
   
+}
+.perfct_place .perfct_text{
+  width: 300px;
 }
 .perfct_place .video{
   width: 200px;
