@@ -88,10 +88,34 @@ height: 500px;
     .footer ul{
       display: flex;
       /* justify-self: start; */
-      width: 100%;
+      width: 300px;
     height: 24px;
     flex-shrink: 0;
     }
+    .footer ul li{
+      width: 30px;
+      padding-left: 50px;
+      /* padding: 50px 0; */
+    }
+
+
+
+
+
+
+    /* section_3/2.A Simple Perfect Place To Get Lost*/
+.perfct_place{
+  display: flex;
+  flex-direction: column;
+  
+}
+.perfct_place .video{
+  width: 200px;
+  height: 300px;
+  margin: 100px 0;
+  /* visibility: hidden; */
+  
+}
 
 
 }
