@@ -83,8 +83,7 @@ height: 500px;
     .main_footer{
       width: 350px;
     }
-    .footer{
-      width: 350px;
+    .footer{width: 350px;
     }
     .footer ul{
       display: flex;
