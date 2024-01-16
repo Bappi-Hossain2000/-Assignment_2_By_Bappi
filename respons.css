@@ -153,4 +153,10 @@ position: relative;
   color: tomato;
 }
 
+.video iframe{
+  width: 350px;
+  height: 300px;
+  border-radius: 20px;
+}
+
 }
